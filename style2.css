@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #161616;
+}
+
+.aboutMe {
+  overflow: hidden;
+  background-color: #161616;
+  border: 1px solid #fff;
+  position: relative;
+  margin: 53px auto;
+  width: 595px;
+  height: 842px;
+}
+
+.aboutMe-title {
+  text-overflow: clip;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 108.4%;
+  /* identical to box height, or 152px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  top: -65px;
+  left: 43px;
+}
+
+.aboutMe-header {
+  font-family: "Avenir Next";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 168.4%;
+  /* or 30px */
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  top: 50%;
+  position: absolute;
+  color: #ffffff;
+  width: 528px;
+  height: 100px;
+  padding-left: 45.5px;
+}
+
+.aboutMe .about {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 678px;
+  margin-left: 34px;
+}
+
+.aboutMe .about-educ h3 {
+  font-family: "Avenir Next";
+  font-size: 9px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffea00;
+}
+
+.aboutMe .about-educ p {
+  font-family: "Avenir Next";
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.aboutMe .about-exp h3 {
+  font-family: "Avenir Next";
+  font-size: 9px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffea00;
+}
+
+.aboutMe .about-exp p {
+  font-family: "Avenir Next";
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.aboutMe .about-bth h3 {
+  font-family: "Avenir Next";
+  font-size: 9px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffea00;
+}
+
+.aboutMe .about-bth p {
+  font-family: "Avenir Next";
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.aboutMe .about-fam h3 {
+  font-family: "Avenir Next";
+  font-size: 9px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffea00;
+}
+
+.aboutMe .about-fam p {
+  font-family: "Avenir Next";
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.aboutMe .about-skil, .aboutMe .about-educ, .aboutMe .about-fam, .aboutMe .about-exp, .aboutMe .about-bth {
+  margin-left: 20px;
+}
+
+.aboutMe .about-skil h3 {
+  font-family: "Avenir Next";
+  font-size: 9px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffea00;
+}
+
+.aboutMe .about-skil p {
+  font-family: "Avenir Next";
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer {
+  border: 1px dashed #393939;
+  position: absolute;
+  width: 563px;
+  height: 0px;
+  left: 16px;
+  top: 794px;
+}
+
+.footer-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-button .nxt {
+  position: absolute;
+  width: 106px;
+  height: 16px;
+  left: 483px;
+  top: 810px;
+}
+
+.footer-button .back {
+  position: absolute;
+  width: 82px;
+  height: 16px;
+  left: 16px;
+  top: 810px;
+}
+/*# sourceMappingURL=style2.css.map */

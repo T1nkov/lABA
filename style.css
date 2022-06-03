@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #161616;
+}
+
+.personalInfo {
+  background-color: #161616;
+  border: 1px solid #fff;
+  position: relative;
+  margin: 53px auto;
+  width: 595px;
+  height: 842px;
+}
+
+.personalInfo-img {
+  width: 91%;
+  margin-left: 54px;
+}
+
+.personalInfo-title {
+  position: absolute;
+  left: 44px;
+  top: 168px;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 108.4%;
+  /* or 65px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffea00;
+}
+
+.personalInfo-subtitle {
+  position: absolute;
+  left: 50px;
+  top: 286px;
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.26);
+}
+
+.personalInfo-menu {
+  position: absolute;
+  width: 100px;
+  height: 19px;
+  left: 50px;
+  top: 426px;
+}
+
+.personalInfo-menu-line {
+  border-left: 2px solid #ffea00;
+}
+
+.personalInfo-menu-line__item {
+  padding-left: 40px;
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 9px 1px 14px 29px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.personalInfo-menu__item {
+  width: 107px;
+  padding-top: 15px;
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 13px 1px 13px 0px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.personalInfo-contact__email-title {
+  position: absolute;
+  width: 31px;
+  height: 12px;
+  left: 50px;
+  top: 748px;
+  font-family: "Avenir Next";
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffea00;
+}
+
+.personalInfo-contact__email-gmail {
+  position: absolute;
+  width: 153px;
+  height: 16px;
+  left: 31px;
+  top: 758px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.personalInfo-contact__email-gmail p {
+  color: #575757;
+}
+
+.personalInfo-contact__number-title {
+  position: absolute;
+  width: 36px;
+  height: 12px;
+  left: 288px;
+  top: 748px;
+  font-family: "Avenir Next";
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffea00;
+}
+
+.personalInfo-contact__number-phone {
+  position: absolute;
+  width: 89px;
+  height: 16px;
+  left: 288px;
+  top: 762px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.personalInfo-contact__number-phone p {
+  color: #575757;
+}
+
+.personalInfo-footer {
+  position: absolute;
+  width: 563px;
+  height: 0px;
+  left: 16px;
+  top: 794px;
+  border: 1px dashed #393939;
+}
+
+.personalInfo-button {
+  position: absolute;
+  width: 96px;
+  height: 16px;
+  left: 497px;
+  top: 810px;
+}
+
+.personalInfo-button a {
+  text-decoration: none;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

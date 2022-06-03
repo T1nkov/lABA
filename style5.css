@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #161616;
+}
+
+.portfolio {
+  background-color: #161616;
+  border: 1px solid #fff;
+  position: relative;
+  margin: 53px auto;
+  width: 595px;
+  height: 842px;
+}
+
+.portfolio-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 72px;
+  border-bottom: 1px dashed #393939;
+}
+
+.portfolio-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio-image {
+  width: 100%;
+}
+
+.portfolio-title {
+  font-family: "Avenir Next";
+  font-size: 11px;
+  line-height: 108.4%;
+  color: #fff;
+}
+
+.portfolio-subtitle {
+  font-family: "Avenir Next";
+  font-size: 7px;
+  line-height: 108.4%;
+  /* identical to box height, or 8px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.portfolio-logo {
+  margin: 0 9px;
+  width: 40px;
+}
+
+.portfolio-main {
+  padding-top: 92px;
+  width: 511px;
+  margin: 0 auto;
+}
+
+.portfolio-main img {
+  margin: 0 auto;
+}
+
+.portfolio-footer {
+  border: 1px dashed #393939;
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portfolio-footer-button-prew, .portfolio-footer-button-nxt {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+/*# sourceMappingURL=style5.css.map */
